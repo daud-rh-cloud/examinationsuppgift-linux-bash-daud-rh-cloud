@@ -1,0 +1,6 @@
+# Permission setup and execution
+all:
+	@echo "Setting permissions..."
+	chmod +x create_users.sh
+	@echo "Running script as root..."
+	sudo ./create_users.sh user1 user2 u
